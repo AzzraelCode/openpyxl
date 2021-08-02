@@ -10,7 +10,7 @@ def example():
     sheet = book["Коллеги"]
     book.active = sheet
 
-    sheet['D1'].value = '=SUM(C1:C999)'
-    sheet['D2'].value = '=AVERAGE(C1:C999)'
+    sheet['E2'].value = '=SUM(C1:C999)'
+    sheet['E3'].value = '=AVERAGE(C1:C999)'
 
     book.save(filename)

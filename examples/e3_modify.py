@@ -24,7 +24,7 @@ def example():
     # sheet.move_range("A1:B200", cols=-22)
 
     # автофильтры и сортировка https://openpyxl.readthedocs.io/en/stable/filters.html
-    # sheet.auto_filter.ref = "A1:C999"
+    sheet.auto_filter.ref = "A1:C999"
     # sheet.auto_filter.add_filter_column(2, ["0"]) # добавит условие, но не применит
     # sheet.auto_filter.add_sort_condition("B1:B999")
 

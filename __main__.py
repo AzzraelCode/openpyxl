@@ -9,7 +9,7 @@ print("Hola, Azzrael Code subs!!!")
 
 e1_create.example()
 # e2_read.example()
-# e3_modify.example()
+e3_modify.example()
 e4_styling.example()
 e5_formulas.example()
 
