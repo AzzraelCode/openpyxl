@@ -9,7 +9,7 @@ def example():
     book = openpyxl.load_workbook(filename="test.xlsx")
     # sheet = book.active
     # sheet = book.worksheets[1]
-    sheet = book["Коллеги"]
+    sheet = book["Коллеги1"]
 
     # for row in sheet.values:
     #     for cell in row:

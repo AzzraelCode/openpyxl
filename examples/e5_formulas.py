@@ -7,8 +7,7 @@ def example():
     """
     filename="test.xlsx"
     book = openpyxl.load_workbook(filename)
-    sheet = book["Коллеги"]
-    book.active = sheet
+    sheet = book.active
 
     sheet['E2'].value = '=SUM(C1:C999)'
     sheet['E3'].value = '=AVERAGE(C1:C999)'
