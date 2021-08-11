@@ -1,5 +1,6 @@
 import openpyxl
 from openpyxl.styles import Font, Fill, PatternFill, NamedStyle, Side, Border
+from openpyxl.worksheet.dimensions import ColumnDimension
 
 
 def example():
@@ -9,8 +10,8 @@ def example():
     """
     filename="test.xlsx"
     book = openpyxl.load_workbook(filename)
-    sheet = book.active
-    # sheet = book["Коллеги"]
+    # sheet = book.active
+    sheet = book["Коллеги"]
 
     sheet.column_dimensions["A"].width = 50 # прим. колво символов
     sheet.column_dimensions["B"].width = 20
